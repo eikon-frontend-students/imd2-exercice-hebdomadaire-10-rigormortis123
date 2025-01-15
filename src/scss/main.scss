@@ -63,11 +63,13 @@ audio {
   background: var(--light-gray);
   height: 6px;
   border-radius: 3px;
+  overflow: hidden;
 }
 
 .player-progress-inner {
   background: var(--purple);
   flex-grow: 1;
+  height: 6px;
 }
 
 .player-time {
